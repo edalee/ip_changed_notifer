@@ -17,8 +17,8 @@ stored_ip.close()
 # test
 # current_ip = "201.2.64.06"
 
-message = "\r\n".join(["From: edlee@gmail@gmail.com",
-"To: edlee.wwp@gmail.com",
+message = "\r\n".join(["From: <email_address>",
+"To: <email_address>",
 "Subject: ip Change",
 "",
 "Your ip address has changed.\nNew ip address is %s" % current_ip
